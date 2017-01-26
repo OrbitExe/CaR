@@ -8,9 +8,7 @@ import org.spongepowered.api.world.World;
 
 import java.util.List;
 
-/**
- * Created by boeschemeier on 25.01.2017.
- */
+
 public class Prison {
 
     private Location<World> prisonMin;
@@ -24,4 +22,29 @@ public class Prison {
         this.prisonSpawn = prisonSpawn;
 
     }
+    public Location<World> getPrisonSpawn() {
+        return prisonSpawn;
+    }
+
+    public void setPrisonSpawn(Location<World> prisonSpawn) {
+        this.prisonSpawn = prisonSpawn;
+    }
+
+    public Location<World> getPrisonMax() {
+        return prisonMax;
+    }
+
+    public void setPrisonMax(Location<World> prisonMax) {
+        this.prisonMax = prisonMax;
+    }
+
+    public Location<World> getPrisonMin() {
+        return prisonMin;
+    }
+
+    public void setPrisonMin(Location<World> prisonMin) {
+        this.prisonMin = prisonMin;
+    }
+
+
 }
